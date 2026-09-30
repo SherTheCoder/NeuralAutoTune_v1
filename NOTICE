@@ -1,0 +1,12 @@
+NeuralAutoTune
+Copyright 2026 Sher Amir Singh Dullat
+
+Licensed under the Apache License, Version 2.0 (see LICENSE), except for the
+third-party components listed in docs/THIRD_PARTY.md, which keep their own
+licenses:
+
+  micro T-Kernel 3.0 and BSP2        T-License 2.2, TRON Forum
+  STM32N6 HAL, CubeMX board code     BSD-3-Clause, STMicroelectronics
+  CMSIS, CMSIS-DSP                   Apache-2.0, Arm Limited
+  Neural-ART runtime (ll_aton) and   STMicroelectronics license terms
+  ST Edge AI generated network code

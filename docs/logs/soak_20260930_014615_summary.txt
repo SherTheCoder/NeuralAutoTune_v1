@@ -1,0 +1,24 @@
+soak 30.0 min -> /Users/sheramirdullat/Developer/NeuralAutoTune/RSN_uTK/tools/board/captures/soak_20260930_014615.log
+clip upload OK
+start: OK stat mode=rsn src=0 key=0 scale=fff hf=1 agc=1 route=1 vib=ratio trim=0 rsn_ready=1 misses=0 overruns=0 rx_ovr=0 rx_drop=0 stack_free=3968
+  01:46:23 phase mic
+  01:48:23 phase seq
+  01:50:23 phase gated
+  01:52:23 phase vibrato
+  01:54:23 phase clip
+  01:56:24 phase bypass
+  01:58:24 phase mic
+  02:00:24 phase seq
+  02:02:24 phase gated
+  02:04:24 phase vibrato
+  02:06:25 phase clip
+  02:08:25 phase bypass
+  02:10:25 phase mic
+  02:12:25 phase seq
+  02:14:25 phase gated
+end:   OK stat mode=rsn src=0 key=0 scale=fff hf=1 agc=1 route=1 vib=ratio trim=0 rsn_ready=1 misses=0 overruns=0 rx_ovr=0 rx_drop=0 stack_free=3968
+
+SOAK SUMMARY (30 min, 1798 status lines)
+  hop latency max 3204 us | play-out margin min 781 us
+  deadline-missed blocks 0 of ~1800000 (0.000 %) | Tier-1 events 0 | Tier-2 events 0
+  audio overruns 0 | UART rx_ovr 0 | stack free 3968 B | worst main-loop pass 663 us

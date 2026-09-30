@@ -1,0 +1,39 @@
+FSBL: RIF unlock + hand-off
+FSBL: RISAF7 CFGR=0x00000001 ENDR=0x00063fff RISAF2 ENDR=0x0009bfff RISAF3 ENDR=0x0007ffff
+FSBL: NPU prov v13 | NS=abcd1234 (want abcd1234) | IASR R4=0 R5=0 R6=0 | r1cfg=00000001 r1end=ffffffff
+App: alive in non-secure main(), starting micro T-Kernel 3.0
+
+
+microT-Kernel Version 3.00
+
+NeuralAutoTune 1.0 on micro T-Kernel 3.00: natune middleware sample
+UI: USER1 short = next key/scale, long = bypass; LD1 green = correcting, LD2 red = clip/miss
+Codec probe WM8904 @0x34: st=0 id=0x8904 (expect st=0 id=0x8904)
+Codec probe CS42L51 @0x94: st=1 id=0x00 (expect st=0 id=0xD9)
+WM8904 DC servo readback: 0x1303 (bits1:0 = cal done)
+WM8904 init: 0/24 writes failed
+Spectrum: ring 1920 samples, FIR 48 taps /3 -> 16 kHz, FFT 256 (test tones: off, live mic)
+HF path: tap delay 1 bypass / 394 voiced (D_PATH 425 = 233 + 48 x 4 play-out; D3 trims), aligned raw 425, HPF 63 taps equiripple 7 kHz crossover, enabled
+Lattice bench (o18, 80 smp x1000): custom 24801 cyc/hop, CMSIS 18531 cyc/hop, maxdiff 0 e-9 (MATCH: synthesis direction verified)
+Lattice production path: custom (supports per-subframe k natively; flip to CMSIS only if it wins by >20%)
+Voice path: LPC o18, static-a analysis FIR + interpolated-k synthesis (4x20), RSN 4x352 int8 -> ring 4 hops, play-out 4 ms, x3 upsample (mode=1 rsn=1 agc=1)
+Bench: UART commands ready (src/clip/cap/mode/key/scale/vib/hf/agc/agct/makeup/route/trim/stat)
+SwiftF0: epoch-controller blob 28608 B -> 0x242168C0
+NPU: sleep clocks npu 1 axisram3-6 1111
+RSN: NPU image (weights + EC blob) @0x24270000 338624 B, CRC32 0x82FFC619 (want 0x82FFC619) OK
+RSN: golden 8 windows x 352: 1052 bytes differ, max |d| 3 LSB (tol 8), mean |d| 0.387 LSB (tol 1.000) -> PASS
+RSN: inference (50) min 1735526 / mean 1738097 / max 1741142 cyc = 2892 / 2896 / 2901 us @ 600 MHz
+C1: cross-validation capture ready (auto=1; or set c1_arm=1). Arena 380 KB in AXISRAM1
+MDF DMA started (playback deferred until first FIFO write)
+SAI DMA started (after first FIFO write: deterministic prefill)
+B3 [head]  vh 0.10 vm 0.45 | g u tr 2 (2/s) | zcr 122 (in<90 out>140) | e -68 dBFS (floor -50, quiet) | f0 0.0 -> f0c 0.0 | vib 0 0c 0.0Hz
+SwiftF0: 99.3 Hz conf 0.10 H 0.79 (fe 215563 npu 1131 maxpass 215563 n=151) in[-128,126] pit[-53,13] w=3c/3c
+BUDGET worst/pass 368866 cyc (614 us of 1000) | blk 123718 | pump+hop 120227 | sf0 228191 | overruns 0 | stack free 4040 B
+B3 [head]  vh 0.10 vm 0.87 | g u tr 2 (0/s) | zcr 133 (in<90 out>140) | e -66 dBFS (floor -50, quiet) | f0 0.0 -> f0c 0.0 | vib 0 0c 0.0Hz
+SwiftF0: 92.4 Hz conf 0.10 H 0.62 (fe 215811 npu 1167 maxpass 215811 n=251) in[-128,126] pit[-65,25] w=3c/3c
+BUDGET worst/pass 368907 cyc (614 us of 1000) | blk 123474 | pump+hop 121759 | sf0 225453 | overruns 0 | stack free 4040 B
+Voice: RSN | rsn 614 plain 0 drop 0 | lat max 3162 us (D 4 ms) margin min 849 us [<.25 0 <.5 0 <1 614 <2 0] | miss 0 (t1 0 t2 0) | agc 36.1 dB sat 24 | A 181 B 79 us wait 148 npu 2901 pick 3 sf0 883 us | r1x1k -33 | SNR 0.0
+B3 [head]  vh 0.28 vm 0.98 | g u tr 2 (0/s) | zcr 57 (in<90 out>140) | e -53 dBFS (floor -50, quiet) | f0 0.0 -> f0c 0.0 | vib 0 0c 0.0Hz
+SwiftF0: 120.7 Hz conf 0.29 H 0.46 (fe 216081 npu 1193 maxpass 216081 n=351) in[-128,126] pit[-72,54] w=3c/3c
+BUDGET worst/pass 369598 cyc (615 us of 1000) | blk 123322 | pump+hop 120328 | sf0 224997 | overruns 0 | stack free 4040 B
+Voice: RSN | rsn 200 plain 0 drop 0 | lat max 3159 us (D 4 ms) margin min 847 us [<.25 0 <.5 0 <1 814 <2 0] | miss 0 (t1 0 t2 0) | agc 36.1 dB sat 0 | A 181 B 79 us wait 149 npu 2901 pick 3 sf0 883 us | r1x1k 2 | SNR 0.0
