@@ -5,38 +5,38 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_cortex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_exti.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_gpio.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_hcd.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rif.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sdio.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart_ex.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_xspi.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_dma.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_exti.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_gpio.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_rcc.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_sdmmc.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_ucpd.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_usb.c \
-/Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_utils.c 
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_cortex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_exti.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_gpio.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_hcd.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rif.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sdio.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart_ex.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_xspi.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_dma.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_exti.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_gpio.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_rcc.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_sdmmc.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_ucpd.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_usb.c \
+../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_utils.c 
 
 OBJS += \
 ./Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal.o \
@@ -108,69 +108,69 @@ C_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_adc.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_adc.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_adc_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_adc_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_adc_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_cortex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_cortex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_cortex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_cortex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_dma.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_dma.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_dma_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_dma_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_dma_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_exti.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_exti.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_exti.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_exti.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_gpio.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_gpio.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_gpio.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_gpio.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_hcd.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_hcd.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_hcd.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_hcd.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_i2c.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_i2c.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_i2c_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_i2c_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_mmc.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_mmc.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_mmc_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_mmc_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_mmc_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_pwr.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_pwr.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_pwr_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_pwr_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_pwr_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_rcc.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_rcc.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_rcc_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_rcc_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rcc_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_rif.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rif.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_rif.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_rif.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_sd.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_sd.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_sd_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_sd_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sd_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_sdio.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sdio.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_sdio.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_sdio.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_uart.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_uart.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_uart_ex.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_uart_ex.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_uart_ex.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_xspi.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_xspi.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_hal_xspi.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_xspi.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_dma.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_dma.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_dma.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_dma.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_exti.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_exti.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_exti.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_exti.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_gpio.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_gpio.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_gpio.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_gpio.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_rcc.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_rcc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_rcc.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_rcc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_sdmmc.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_sdmmc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_sdmmc.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_sdmmc.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_ucpd.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_ucpd.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_ucpd.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_ucpd.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_usb.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_usb.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_usb.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_usb.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
-Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_utils.o: /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_utils.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
+Drivers/STM32N6xx_HAL_Driver/stm32n6xx_ll_utils.o: ../../Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_ll_utils.c Drivers/STM32N6xx_HAL_Driver/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m55 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32N657xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../../Drivers/STM32N6xx_HAL_Driver/Inc -I../../Drivers/CMSIS/Device/ST/STM32N6xx/Include -I../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy -I../../Drivers/STM32N6xx_HAL_Driver/Src -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -mcmse -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
 
 clean: clean-Drivers-2f-STM32N6xx_HAL_Driver

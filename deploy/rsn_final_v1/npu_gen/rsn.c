@@ -29,12 +29,12 @@
  * --cache-maintenance = true
  * --enable-virtual-mem-pools = true
  * --native-float = true
- * --json-quant-file = "/private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/rsn_pg_Q.json"
+ * --json-quant-file = "map_final_v1/rsn_pg_Q.json"
  * --Os = true
  * --Ocache-opt = true
  * --output-info-file = "c_info"
- * --onnx-input = "/private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/rsn_pg.onnx"
- * --out-dir-prefix = "/private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/pg/neural_art__rsn/"
+ * --onnx-input = "map_final_v1/rsn_pg.onnx"
+ * --out-dir-prefix = "map_final_v1/pg/neural_art__rsn/"
  * --network-name = "rsn"
  * --generate-stai = true
  * --Oauto-sched = true

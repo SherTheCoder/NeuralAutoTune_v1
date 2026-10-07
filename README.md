@@ -65,7 +65,8 @@ STM32CubeIDE 2.1.
 
 1. File > Import > General > Existing Projects into Workspace. Select this
    folder, tick "Search for nested projects" and import all three projects
-   (`RSN`, `RSN_FSBL`, `RSN_AppliNonSecure`).
+   (`RSN`, `RSN_FSBL`, `RSN_AppliNonSecure`). Leave "Copy projects into
+   workspace" unticked; the projects use files from the folders around them.
 2. Project > Build All.
 3. Run > Debug Configurations > STM32 C/C++ Application > `RSN_FSBL`, then
    Debug. This loads the application, the RSN weights

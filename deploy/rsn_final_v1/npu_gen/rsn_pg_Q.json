@@ -15,7 +15,7 @@
    {
     "name": "ST.EdgeAI.Core",
     "version": "4.0.1-20581 7ed50de05",
-    "arguments": "generate -m /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/rsn_int8.onnx --target stm32n6 --st-neural-art --type onnx --name rsn --workspace /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/raw --output /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/raw",
+    "arguments": "generate -m map_final_v1/rsn_int8.onnx --target stm32n6 --st-neural-art --type onnx --name rsn --workspace map_final_v1/raw --output map_final_v1/raw",
     "environment": [],
     "input_model": {
      "model_files": [

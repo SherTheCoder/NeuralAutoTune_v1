@@ -5,7 +5,7 @@
    {
     "name": "ST.EdgeAI.Core",
     "version": "4.0.1-20581 7ed50de05",
-    "arguments": "generate -m /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/rsn_int8.onnx --target stm32n6 --st-neural-art --type onnx --name rsn --workspace /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/raw --output /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/raw",
+    "arguments": "generate -m map_final_v1/rsn_int8.onnx --target stm32n6 --st-neural-art --type onnx --name rsn --workspace map_final_v1/raw --output map_final_v1/raw",
     "environment": [],
     "input_model": {
      "name": "rsn_int8",
@@ -24,7 +24,7 @@
    {
     "name": "ATONN Compiler",
     "version": "1.1.3-275",
-    "arguments": " -i /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/rsn_pg.onnx --json-quant-file /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/rsn_pg_Q.json -g rsn.c --load-mdesc /Applications/ST/STEdgeAI/4.0/Utilities/configs/stm32n6.mdesc --load-mpool /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/tools/swiftf0/st_ai_ws/stm32n6_rsn.mpool --load-cdesc /Applications/ST/STEdgeAI/4.0/Utilities/configs/cortex-m55.cdesc --out-dir-prefix /private/tmp/claude-501/-Users-sheramirdullat-Developer-NeuralAutoTune-RSN/ec53cf7e-4f29-4e66-97a5-4ad3558a8514/scratchpad/map_final_v1/pg/neural_art__rsn/ --network-name rsn --native-float --cache-maintenance --Ocache-opt --enable-virtual-mem-pools --Os --Oauto-sched --output-info-file c_info.json --generate-stai",
+    "arguments": " -i map_final_v1/rsn_pg.onnx --json-quant-file map_final_v1/rsn_pg_Q.json -g rsn.c --load-mdesc /Applications/ST/STEdgeAI/4.0/Utilities/configs/stm32n6.mdesc --load-mpool /Users/sheramirdullat/Developer/NeuralAutoTune/RSN/tools/swiftf0/st_ai_ws/stm32n6_rsn.mpool --load-cdesc /Applications/ST/STEdgeAI/4.0/Utilities/configs/cortex-m55.cdesc --out-dir-prefix map_final_v1/pg/neural_art__rsn/ --network-name rsn --native-float --cache-maintenance --Ocache-opt --enable-virtual-mem-pools --Os --Oauto-sched --output-info-file c_info.json --generate-stai",
     "environment": [],
     "input_model": {
      "name": "network",

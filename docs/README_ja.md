@@ -58,7 +58,8 @@ STM32N6570-DK 上で動くリアルタイムのニューラル音程補正を、
 
 1. File > Import > General > Existing Projects into Workspace でこのフォルダを選び、
    「Search for nested projects」をチェックして三つのプロジェクト(`RSN`、`RSN_FSBL`、
-   `RSN_AppliNonSecure`)をインポートします。
+   `RSN_AppliNonSecure`)をインポートします。プロジェクトは周りのフォルダのファイルを
+   参照しているので、「Copy projects into workspace」はチェックしないでください。
 2. Project > Build All でビルドします。
 3. Run > Debug Configurations > STM32 C/C++ Application > `RSN_FSBL` で Debug を押します。
    アプリケーション、RSN の重み、FSBL が RAM に書き込まれ、FSBL の `main` で止まるので、

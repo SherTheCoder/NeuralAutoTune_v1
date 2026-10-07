@@ -38,6 +38,10 @@ rs --include 'objects.list' --exclude 'Debug/*.elf' --exclude 'Debug/*.map' --ex
    --include '*.mk' --include 'makefile' --include 'RSN_FSBL.launch' --exclude '*' \
    "$ROOT/FSBL" "$STAGE/"
 files FSBL/.project FSBL/.cproject FSBL/.settings
+# CubeIDE writes linked files into its makefiles with absolute paths; make
+# them relative so board.sh can build the FSBL from any checkout
+find "$STAGE/FSBL/Debug" \( -name makefile -o -name '*.mk' \) -exec \
+  perl -pi -e 's#(^|[\s"])/[^\s"]*?/(Drivers|FSBL)/#$1../../$2/#g' {} +
 
 rs "$ROOT/Drivers" "$STAGE/"
 
