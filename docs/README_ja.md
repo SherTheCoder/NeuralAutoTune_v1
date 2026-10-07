@@ -54,10 +54,19 @@ STM32N6570-DK 上で動くリアルタイムのニューラル音程補正を、
 
 ## ビルドと実行
 
-```
-tools/board/board.sh run 20
-```
+ボードを開発ブートモード(BOOT1 スイッチを 1-3)にし、STM32CubeIDE 2.1 を使います。
 
+1. File > Import > General > Existing Projects into Workspace でこのフォルダを選び、
+   「Search for nested projects」をチェックして三つのプロジェクト(`RSN`、`RSN_FSBL`、
+   `RSN_AppliNonSecure`)をインポートします。
+2. Project > Build All でビルドします。
+3. Run > Debug Configurations > STM32 C/C++ Application > `RSN_FSBL` で Debug を押します。
+   アプリケーション、RSN の重み、FSBL が RAM に書き込まれ、FSBL の `main` で止まるので、
+   Resume で実行します。
+
+コンソールは ST-LINK の仮想 COM ポート(2,000,000 bps)です。
+
+IDE を使わない場合は `tools/board/board.sh run 20` でビルドから実行まで行えます。
 `AppliNonSecure/` で `make` するだけでもビルドできます。
 
 ## ライセンス

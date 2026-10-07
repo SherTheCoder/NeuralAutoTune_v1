@@ -60,17 +60,29 @@ These match the earlier bare-metal version of the same firmware.
 
 ## Building and running
 
-You need the board in DEV boot mode, STM32CubeIDE 2.1 (for its GCC, ST-LINK
-GDB server and CubeProgrammer; the IDE itself is not used) and Python 3 with
-pyserial, numpy and scipy.
+You need the board in development boot mode (BOOT1 switch at 1-3) and
+STM32CubeIDE 2.1.
+
+1. File > Import > General > Existing Projects into Workspace. Select this
+   folder, tick "Search for nested projects" and import all three projects
+   (`RSN`, `RSN_FSBL`, `RSN_AppliNonSecure`).
+2. Project > Build All.
+3. Run > Debug Configurations > STM32 C/C++ Application > `RSN_FSBL`, then
+   Debug. This loads the application, the RSN weights
+   (`tools/board/blobs/rsn_weights.elf`) and the FSBL into RAM and stops in
+   the FSBL's `main`. Press Resume.
+
+The console is the ST-LINK virtual COM port at 2,000,000 baud.
+
+Without the IDE (Python 3 with pyserial, numpy and scipy):
 
 ```
 tools/board/board.sh run 20
 ```
 
-This builds both images with make, loads the FSBL, the application and the
-RSN weights into RAM, starts the board and shows 20 seconds of console
-output. To build only: `cd AppliNonSecure && make`.
+This builds both images with make, loads them and the weights, starts the
+board and shows 20 seconds of console output. To build only:
+`cd AppliNonSecure && make`.
 
 Plug headphones into the 3.5 mm jack and sing. USER1 changes the key (short
 press) or turns correction off and on (long press). LD1 is on while

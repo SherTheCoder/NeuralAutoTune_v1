@@ -1,7 +1,7 @@
 #!/bin/bash
 # make_submission.sh - build the source archive: firmware, sample app, docs,
-# host tools, training code and the deployed network (no build outputs,
-# captures or checkpoints)
+# STM32CubeIDE projects, host tools, training code and the deployed network
+# (no build outputs, captures or checkpoints)
 #
 #   tools/make_submission.sh [out_dir]    -> <out_dir>/NeuralAutoTune_uTK_<date>.zip
 #
@@ -19,7 +19,7 @@ EXCL=(--exclude '.DS_Store' --exclude '__pycache__' --exclude '.venv' --exclude 
 rs() { rsync -a --prune-empty-dirs "${EXCL[@]}" "$@"; }
 files() { (cd "$ROOT" && rsync -aR "$@" "$STAGE/"); }
 
-files README.md LICENSE NOTICE
+files README.md LICENSE NOTICE .project .settings
 rs --exclude 'PLAN_*' "$ROOT/docs/" "$STAGE/docs/"
 
 # application image
@@ -29,13 +29,15 @@ for d in Core natune app mtk3_bsp2 Middlewares X-CUBE-AI; do
 done
 rs "$ROOT/AppliNonSecure/natune/README.md" "$STAGE/AppliNonSecure/natune/"
 rs --include '*/' --include '*.md' --exclude '*' "$ROOT/AppliNonSecure/mtk3_bsp2" "$STAGE/AppliNonSecure/"
-files AppliNonSecure/Makefile AppliNonSecure/STM32N657X0HXQ_LRUN.ld
+files AppliNonSecure/Makefile AppliNonSecure/STM32N657X0HXQ_LRUN.ld \
+      AppliNonSecure/.project AppliNonSecure/.cproject AppliNonSecure/.settings
 
-# secure boot stage: sources and the CubeIDE makefiles
+# secure boot stage: sources, CubeIDE project and makefiles
 rs --include 'objects.list' --exclude 'Debug/*.elf' --exclude 'Debug/*.map' --exclude 'Debug/*.list' \
    --include '*/' --include '*.c' --include '*.h' --include '*.s' --include '*.ld' \
    --include '*.mk' --include 'makefile' --include 'RSN_FSBL.launch' --exclude '*' \
    "$ROOT/FSBL" "$STAGE/"
+files FSBL/.project FSBL/.cproject FSBL/.settings
 
 rs "$ROOT/Drivers" "$STAGE/"
 

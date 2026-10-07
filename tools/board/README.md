@@ -24,6 +24,16 @@ Voice: RSN | rsn 200 ... | miss 0 (t1 0 t2 0) | ...
 were late. If the self-test fails, the firmware plays the uncorrected LPC
 round trip instead; reloading with `board.sh load` rewrites the weights.
 
+`blobs/rsn_weights.elf` holds the same weights for the STM32CubeIDE launch,
+which loads them before the FSBL runs (its init commands power AXISRAM4
+first). After changing `rsn_weights.bin`, regenerate it from this folder:
+
+```
+arm-none-eabi-objcopy -I binary -O elf32-littlearm -B arm --change-addresses 0x34270000 \
+  --rename-section .data=.rsn_weights,alloc,load,readonly,data,contents \
+  blobs/rsn_weights.bin blobs/rsn_weights.elf
+```
+
 ## Controls
 
 On the board, a short press on USER1 steps through the keys (chromatic, eight
